@@ -1,0 +1,30 @@
+.swiper {
+    width: 600px;
+    height: 200px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 3rem; */
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+ 
+        /* background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(.3125rem); */
+  }
+
+  .swiper-slide {
+/* display: none; */
+visibility: hidden;
+  }
+  .swiper-slide-active {
+    /* display: flex; */
+    visibility: visible;
+    /* background-color: rgba(255, 255, 255, 0.623); */
+
+  }
+  
